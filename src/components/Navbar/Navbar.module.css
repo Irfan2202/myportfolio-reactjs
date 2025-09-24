@@ -12,7 +12,6 @@
 }
 
 .navbarInner {
-  /* kita tetap pakai container global di JSX */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +30,7 @@
 
 .navLinks {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   font-size: var(--font-base);
 }
 
@@ -42,4 +41,15 @@
 
 .navLinks li a:hover {
   color: var(--color-primary);
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 60px;
+  }
+  .navLinks {
+    display: none;
+  }
+  .brand {
+    font-size: 1.2rem;
+  }
 }
