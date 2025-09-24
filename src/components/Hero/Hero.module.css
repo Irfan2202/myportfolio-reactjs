@@ -1,0 +1,41 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.heroContent .title {
+  font-size: 3.5rem;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin: 1.2rem;
+  color: var(--color-text-gray);
+}
+
+.heroContent p {
+  color: var(--color-text-gray);
+}
+
+.heroContent span {
+  color: var(--color-primary);
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.heroButtons {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heroContent .title {
+    font-size: 2rem;
+  }
+}
