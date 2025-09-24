@@ -14,7 +14,7 @@ function Navbar() {
               <a href="#">Beranda</a>
             </li>
             <li>
-              <a href="#tentang">Tentang</a>
+              <a href="#about">Tentang</a>
             </li>
             <li>
               <a href="#layanan">Layanan</a>

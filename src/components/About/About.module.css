@@ -1,0 +1,35 @@
+section.about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--bg-color-light);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.content h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 1 1 100%;
+  }
+}
