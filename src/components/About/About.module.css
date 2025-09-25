@@ -1,7 +1,7 @@
 section.about {
+  min-height: fit-content;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: var(--bg-color-light);
 }
 
 .title {
@@ -11,6 +11,17 @@ section.about {
   margin-bottom: 1.5rem;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 10rem;
+  padding: 1rem 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+}
 .content h2 {
   text-align: center;
   margin-top: 2rem;
@@ -31,5 +42,9 @@ section.about {
   }
   .column {
     flex: 1 1 100%;
+  }
+  .content {
+    margin: 1rem;
+    padding: 1rem;
   }
 }

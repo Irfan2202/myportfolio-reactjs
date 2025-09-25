@@ -1,10 +1,9 @@
 import styles from "./Navbar.module.css";
-import "../../index.css";
 
 function Navbar() {
   return (
     <header className={styles.navbar}>
-      <div className={`container ${styles.navbarInner}`}>
+      <div className={styles.container}>
         <a href="#" className={styles.brand}>
           Irfan<span>Dev</span>
         </a>
@@ -14,19 +13,19 @@ function Navbar() {
               <a href="#">Beranda</a>
             </li>
             <li>
-              <a href="#about">Tentang</a>
+              <a href="#personal">Ringkasan Personal</a>
             </li>
             <li>
-              <a href="#layanan">Layanan</a>
+              <a href="#skill">Skill</a>
             </li>
             <li>
               <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#artikel">Artikel</a>
+              <a href="#articles">Artikel</a>
             </li>
             <li>
-              <a href="#kontak">Kontak</a>
+              <a href="#contact">Kontak</a>
             </li>
           </ul>
         </nav>

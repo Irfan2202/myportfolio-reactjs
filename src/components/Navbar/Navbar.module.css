@@ -1,4 +1,3 @@
-/* Styling khusus Navbar */
 .navbar {
   height: 60px;
   background-color: var(--color-light);
@@ -11,11 +10,16 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-.navbarInner {
+.navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .brand {
@@ -41,6 +45,12 @@
 
 .navLinks li a:hover {
   color: var(--color-primary);
+}
+
+@media screen and (max-width: 991px) {
+  .navLinks {
+    gap: 0.5rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar {

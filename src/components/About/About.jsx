@@ -1,35 +1,31 @@
 import styles from "./About.module.css";
+import "../../index.css";
 
 function About() {
   return (
-    <section class={styles.about} id="about">
-      <div class={styles.container}>
-        <h1 class={styles.title}>Tentang Saya</h1>
-        <div class={styles.row}>
-          <div class={styles.column}>img</div>
-          <div class={styles.column}>
-            <div class={styles.content}>
-              <h2>Web Developer</h2>
-              <p>
-                Halo! Saya Irfan, seorang web developer yang telah menekuni
-                dunia pemrograman web selama 1 tahun. Perjalanan saya dimulai
-                dengan mempelajari fondasi web development seperti HTML, CSS,
-                dan JavaScript.
-              </p>
-              <p>
-                Seiring waktu, saya mengeksplorasi teknologi backend dengan PHP
-                dan framework Laravel untuk membangun aplikasi web yang dinamis
-                dan scalable. Saat ini, saya sedang memperdalam React.js untuk
-                menciptakan user interface yang interaktif dan modern.
-              </p>
-              <p>
-                Saya passionate dalam menciptakan solusi digital yang tidak
-                hanya fungsional, tapi juga memberikan pengalaman pengguna yang
-                luar biasa. Setiap project adalah kesempatan untuk belajar dan
-                berkembang.
-              </p>
-            </div>
-          </div>
+    <section className={styles.about} id="personal">
+      <div className="container">
+        <h1 className={styles.title}>Ringkasan Profesional</h1>
+        <div className={styles.content}>
+          <p>
+            Halo! Saya Irfan, seorang Web Developer yang berdedikasi dan penuh
+            semangat dengan pengalaman lebih dari 1 tahun dalam pengembangan
+            aplikasi web yang responsif dan berpusat pada pengguna.
+          </p>
+          <p>
+            Saya memiliki fondasi yang kuat dalam teknologi front-end dan
+            back-end, dengan keahlian di HTML5, CSS3, JavaScript, PHP, dan
+            framework Laravel. Saat ini saya sedang fokus mendalami React.js
+            untuk membangun antarmuka pengguna yang modern dan interaktif.
+          </p>
+          <p>
+            Saya berkomitmen untuk terus belajar dan mengikuti perkembangan
+            teknologi web terbaru. Dengan kemampuan pemecahan masalah, perhatian
+            pada detail, dan kemampuan bekerja secara kolaboratif, saya siap
+            membantu perusahaan atau klien dalam mengembangkan solusi digital
+            yang fungsional, inovatif, dan berkualitas tinggi — baik untuk
+            kebutuhan kerja full-time, freelance, maupun proyek.
+          </p>
         </div>
       </div>
     </section>

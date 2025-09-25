@@ -1,0 +1,10 @@
+section.skill {
+  min-height: fit-content;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--bg-color-light);
+}
+
+.content {
+  text-align: center;
+}

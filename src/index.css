@@ -33,13 +33,25 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 4rem;
 }
 
 section {
   min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
 }
 
 p {
@@ -56,37 +68,6 @@ p {
 .column {
   display: flex;
   flex: 1 1 50%;
-}
-
-/* Reusable Buttons */
-.btn {
-  display: inline-block;
-  padding: 16px 24px;
-  border-radius: 8px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  margin: 1rem 0.5rem 0;
-}
-
-.btn-primary {
-  background-color: var(--color-primary);
-  color: var(--color-light);
-}
-
-.btn-primary:hover {
-  background-color: var(--color-primary-dark);
-  color: var(--color-light);
-}
-
-.btn-secondary {
-  background-color: transparent;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
-}
-
-.btn-secondary:hover {
-  background-color: var(--color-primary);
-  color: var(--color-light);
 }
 
 /* Responsive umum */

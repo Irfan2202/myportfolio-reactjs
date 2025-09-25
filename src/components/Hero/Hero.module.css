@@ -1,24 +1,51 @@
 .hero {
-  min-height: 100vh;
+  min-height: fit-content;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 5rem;
+  padding: 1rem 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+}
+
+.column {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.column .img {
+  display: block;
+  flex: 0 0 30%;
+}
+
+.img {
   text-align: center;
-  padding-top: 60px;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.column .heroContent,
+.heroContent h1,
+.heroButtons {
+  flex: 0 0 100%;
+  margin: 1rem 4rem;
 }
 
 .heroContent h1 {
-  font-size: 3.5rem;
-}
-
-.subtitle {
-  font-size: 1.5em;
-  margin: 1.2rem;
-  color: var(--color-text-gray);
-}
-
-.heroContent p {
-  color: var(--color-text-gray);
+  text-align: left;
+  font-size: 2rem;
 }
 
 .heroContent span {
@@ -30,12 +57,85 @@
   margin: 0 auto 1.5rem;
 }
 
-.heroButtons {
-  margin-top: 1rem;
+@media screen and (max-width: 1200px) {
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .column {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .heroContent h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .heroContent p,
+  .heroButtons {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .heroContent .title {
-    font-size: 2rem;
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .column {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .heroContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+    margin: 1rem auto;
+    display: block;
+  }
+
+  .heroContent h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .heroContent p,
+  .heroButtons {
+    text-align: center;
   }
 }
