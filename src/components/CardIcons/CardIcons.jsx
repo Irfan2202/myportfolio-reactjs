@@ -1,6 +1,6 @@
-import Styles from "./Card.module.css";
+import Styles from "./CardIcons.module.css";
 import "../../index.css";
-function Card({ icon, title }) {
+function CardIcons({ icon, title }) {
   return (
     <div className={Styles.card}>
       <i className={icon}></i>
@@ -9,4 +9,4 @@ function Card({ icon, title }) {
   );
 }
 
-export default Card;
+export default CardIcons;

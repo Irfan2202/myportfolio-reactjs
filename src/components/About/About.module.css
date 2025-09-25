@@ -14,7 +14,7 @@ section.about {
 .content {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 10rem;
+  margin: 2rem 8rem;
   padding: 1rem 2rem;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
@@ -35,7 +35,12 @@ section.about {
 .column {
   flex: 1 1 50%;
 }
-
+@media screen and (max-width: 991px) {
+  .content {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .row {
     display: flex;

@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import Card from "../Card/Card";
+import CardIcons from "../CardIcons/CardIcons";
 import Styles from "./Skill.module.css";
 import "../../index.css";
 import "slick-carousel/slick/slick.css";
@@ -15,7 +15,6 @@ function Skill() {
     { id: 6, icon: "fa-brands fa-bootstrap", title: "Bootstrap" },
   ];
 
-  // pengaturan carousel berjalan terus (marquee)
   const settings = {
     infinite: true,
     autoplay: true,
@@ -42,7 +41,7 @@ function Skill() {
   };
 
   return (
-    <section className={Styles.skill}>
+    <section className={Styles.skill} id="skill">
       <div className="container">
         <div className={Styles.content}>
           <h1 className="title">Keahlian Teknis</h1>
@@ -50,7 +49,7 @@ function Skill() {
         </div>
         <Slider {...settings}>
           {icons.map((item) => (
-            <Card key={item.id} icon={item.icon} title={item.title} />
+            <CardIcons key={item.id} icon={item.icon} title={item.title} />
           ))}
         </Slider>
       </div>

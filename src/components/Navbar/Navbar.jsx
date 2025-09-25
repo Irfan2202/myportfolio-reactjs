@@ -1,34 +1,51 @@
+import { useState } from "react";
 import styles from "./Navbar.module.css";
+import "@fortawesome/fontawesome-free/css/all.min.css"; // pastikan diimpor
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className={styles.navbar}>
       <div className={styles.container}>
         <a href="#" className={styles.brand}>
           Irfan<span>Dev</span>
         </a>
-        <nav>
-          <ul className={styles.navLinks}>
-            <li>
-              <a href="#">Beranda</a>
-            </li>
-            <li>
-              <a href="#personal">Ringkasan Personal</a>
-            </li>
-            <li>
-              <a href="#skill">Skill</a>
-            </li>
-            <li>
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="#articles">Artikel</a>
-            </li>
-            <li>
-              <a href="#contact">Kontak</a>
-            </li>
-          </ul>
-        </nav>
+
+        <button
+          className={styles.hamburger}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <i
+            className={menuOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
+          ></i>
+        </button>
+
+        <ul
+          className={`${styles.navLinks} ${
+            menuOpen ? styles.navLinksActive : ""
+          }`}
+        >
+          <li>
+            <a href="#">Beranda</a>
+          </li>
+          <li>
+            <a href="#personal">Ringkasan Personal</a>
+          </li>
+          <li>
+            <a href="#skill">Skill</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#articles">Artikel</a>
+          </li>
+          <li>
+            <a href="#contact">Kontak</a>
+          </li>
+        </ul>
       </div>
     </header>
   );
