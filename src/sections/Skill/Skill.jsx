@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import CardIcons from "../CardIcons/CardIcons";
+import CardIcons from "../../components/CardIcons/CardIcons";
 import Styles from "./Skill.module.css";
 import "../../index.css";
 import "slick-carousel/slick/slick.css";
