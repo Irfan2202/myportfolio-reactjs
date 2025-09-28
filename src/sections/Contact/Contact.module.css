@@ -1,0 +1,49 @@
+.contact {
+  background-color: var(--color-primary);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  min-height: 100vh;
+}
+
+.contact h1 {
+  color: var(--color-text-light);
+}
+
+/* Specific column widths for desktop */
+.contact .column:first-child {
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.contact .column:last-child {
+  flex: 0 0 60%;
+  max-width: 60%;
+}
+.row {
+  display: flex;
+}
+/* ==================== */
+/* Media Queries (Layout) */
+/* ==================== */
+
+@media screen and (max-width: 991px) {
+  .row {
+    gap: 2rem;
+  }
+  .contact .column:first-child,
+  .contact .column:last-child {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .container {
+    padding: 0 1rem;
+  }
+  .contact .row {
+    margin: 2rem 0;
+  }
+}

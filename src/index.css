@@ -60,19 +60,3 @@ p {
   line-height: 1.5rem;
   color: var(--color-text-gray);
 }
-
-.row {
-  display: flex;
-}
-
-.column {
-  display: flex;
-  flex: 1 1 50%;
-}
-
-/* Responsive umum */
-@media screen and (max-width: 991px) {
-  .title {
-    font-size: 2rem;
-  }
-}

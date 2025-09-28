@@ -34,16 +34,16 @@ function Navbar() {
             <a href="#personal">Ringkasan Personal</a>
           </li>
           <li>
-            <a href="#skill">Skill</a>
+            <a href="#skill">Keahlian</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#pengalaman">Pengalaman</a>
           </li>
           <li>
-            <a href="#articles">Artikel</a>
+            <a href="#pendidikan">Pendidikan</a>
           </li>
           <li>
-            <a href="#contact">Kontak</a>
+            <a href="#kontak">Kontak</a>
           </li>
         </ul>
       </div>
