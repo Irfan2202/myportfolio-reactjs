@@ -25,7 +25,7 @@
 /* Media Queries (Layout) */
 /* ==================== */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .row {
     gap: 2rem;
   }

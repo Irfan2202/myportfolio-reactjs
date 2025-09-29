@@ -60,3 +60,8 @@ p {
   line-height: 1.5rem;
   color: var(--color-text-gray);
 }
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
