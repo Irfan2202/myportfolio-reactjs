@@ -4,7 +4,7 @@ import "../../index.css";
 function Hero() {
   return (
     <section id="hero" className={styles.hero}>
-      <div className={styles.container}>
+      <div className="container">
         <div className={styles.row}>
           <div className={styles.column}>
             <img className={styles.img} src="./images/photo.png" alt="irfan" />
