@@ -1,11 +1,6 @@
 .card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-size: 1rem;
-  margin: 1rem;
-  padding: 2rem;
+  font-size: 2rem;
+  margin-top: 2rem;
   cursor: pointer;
   background-color: var(--text-light);
   text-align: center;
@@ -48,4 +43,10 @@
 
 :global(.fa-bootstrap) {
   color: #7952b3;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    font-size: 1rem;
+  }
 }

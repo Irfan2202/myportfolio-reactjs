@@ -22,7 +22,7 @@ function Skill() {
     autoplaySpeed: 1000,
     speed: 500,
     cssEase: "ease",
-    slidesToShow: 5, // Default for large screens
+    slidesToShow: 5,
     slidesToScroll: 1,
     pauseOnHover: false,
     responsive: [
@@ -35,16 +35,16 @@ function Skill() {
         },
       },
       {
-        breakpoint: 768, // Untuk layar <= 768px (Tablet)
+        breakpoint: 768,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 480, // Untuk layar <= 480px (Smartphone)
+        breakpoint: 480,
         settings: {
-          slidesToShow: 3, // Menampilkan 1 kartu di ponsel
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
