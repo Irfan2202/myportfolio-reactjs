@@ -3,6 +3,7 @@ import Hero from "./sections/Hero/Hero";
 import About from "./sections/About/About";
 import Skill from "./sections/Skill/Skill";
 import Contact from "./sections/Contact/Contact";
+import Footer from "./sections/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Skill />
       <Contact />
+      <Footer />
     </>
   );
 }

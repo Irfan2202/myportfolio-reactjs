@@ -27,12 +27,13 @@
 .column .img {
   display: block;
   flex: 0 0 30%;
+  margin: 2rem;
 }
 
 .img {
   text-align: center;
   margin: 0 auto;
-  width: 200px;
+  width: 250px;
   border-radius: 50%;
 }
 

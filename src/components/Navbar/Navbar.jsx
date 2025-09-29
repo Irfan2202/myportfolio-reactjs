@@ -43,7 +43,7 @@ function Navbar() {
             <a href="#pendidikan">Pendidikan</a>
           </li>
           <li>
-            <a href="#kontak">Kontak</a>
+            <a href="#contact">Kontak</a>
           </li>
         </ul>
       </div>

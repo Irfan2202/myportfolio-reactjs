@@ -90,7 +90,7 @@ const ContactForm = () => {
         ></textarea>
       </div>
 
-      <Button type="submit" href="#portfolio" variant="primary">
+      <Button type="submit" variant="primary">
         <i className="fa-solid fa-paper-plane"></i> Kirim Pesan
       </Button>
     </form>
