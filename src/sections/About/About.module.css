@@ -14,12 +14,15 @@ section.about {
 .content {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 8rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   padding: 1rem 2rem;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   box-sizing: border-box;
   background-color: var(--bg-color-light);
+  width: 60%;
 }
 .content h2 {
   text-align: center;
@@ -50,5 +53,6 @@ section.about {
   .content {
     margin: 1rem;
     padding: 1rem;
+    width: 90%;
   }
 }
