@@ -1,3 +1,4 @@
+import React from "react";
 import Slider from "react-slick";
 import CardIcons from "../../components/CardIcons/CardIcons";
 import Styles from "./Skill.module.css";
@@ -18,23 +19,33 @@ function Skill() {
   const settings = {
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 0,
-    speed: 5000,
-    cssEase: "linear",
-    slidesToShow: 5,
+    autoplaySpeed: 1000,
+    speed: 500,
+    cssEase: "ease",
+    slidesToShow: 5, // Default for large screens
     slidesToScroll: 1,
     pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 768, // Untuk layar <= 768px (Tablet)
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480, // Untuk layar <= 480px (Smartphone)
+        settings: {
+          slidesToShow: 3, // Menampilkan 1 kartu di ponsel
+          slidesToScroll: 1,
         },
       },
     ],

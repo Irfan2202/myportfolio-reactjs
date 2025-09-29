@@ -5,6 +5,14 @@ section.skill {
   background-color: var(--bg-color-light);
 }
 
+.skillCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 .content {
   text-align: center;
 }
