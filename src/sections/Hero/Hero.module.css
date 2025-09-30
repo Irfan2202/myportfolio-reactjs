@@ -116,15 +116,15 @@ section.hero {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .img {
+    width: 100px;
     margin: 0.5rem auto;
-    display: block;
   }
 
   .heroContent h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
   }
 }
