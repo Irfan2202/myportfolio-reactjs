@@ -6,7 +6,7 @@ function Portfolio() {
     {
       id: 1,
       image: "/images/company.png",
-      title: "E-Commerce Dashboard",
+      title: "Company Profile",
       description:
         "Website company profile dengan halaman Home, About, Services, Pricing, dan Contact.",
       techs: ["Bootstrap", "JavaScript", "CSS"],

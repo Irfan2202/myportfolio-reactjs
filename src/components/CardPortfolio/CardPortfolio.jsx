@@ -1,13 +1,6 @@
 import styles from "./CardPortfolio.module.css";
 
-function CardPortfolio({
-  image,
-  title,
-  description,
-  techs,
-  demoLink,
-  codeLink,
-}) {
+function CardPortfolio({ image, title, description, techs, demoLink }) {
   return (
     <div className={styles.card}>
       <div className={styles.cardImage}>
