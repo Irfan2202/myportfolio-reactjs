@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import CardIcons from "../../components/CardIcons/CardIcons";
 import Styles from "./Skill.module.css";
