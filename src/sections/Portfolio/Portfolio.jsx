@@ -12,6 +12,15 @@ function Portfolio() {
       techs: ["Bootstrap", "JavaScript", "CSS"],
       demoLink: "https://companyprofilebasic.vercel.app/",
     },
+    {
+      id: 2,
+      image: "/images/travel.png",
+      title: "Travel Umroh",
+      description:
+        "Website Travel Umroh dengan fitur pemesanan paket, data pemesan dan jamaah, serta halaman invoice. Versi lengkap menggunakan Laravel untuk manajemen backend, validasi data, dan penyimpanan database.",
+      techs: ["Bootstrap", "JavaScript", "CSS", "Laravel"],
+      demoLink: "https://travel-umroh-pi.vercel.app/",
+    },
   ];
 
   return (
