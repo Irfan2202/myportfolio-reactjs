@@ -23,6 +23,7 @@ function Portfolio() {
     },
     {
       id: 3,
+      image: "/images/invitation.png",
       title: "Undangan Pernikahan",
       description:
         "Website undangan pernikahan digital dengan desain elegan dan fitur interaktif seperti manajemen tamu, RSVP online, serta halaman khusus untuk detail acara dan galeri foto.",
