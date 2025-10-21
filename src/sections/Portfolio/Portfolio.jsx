@@ -21,6 +21,14 @@ function Portfolio() {
       techs: ["Bootstrap", "JavaScript", "CSS", "Laravel"],
       demoLink: "https://travel-umroh-pi.vercel.app/",
     },
+    {
+      id: 3,
+      title: "Undangan Pernikahan",
+      description:
+        "Website undangan pernikahan digital dengan desain elegan dan fitur interaktif seperti manajemen tamu, RSVP online, serta halaman khusus untuk detail acara dan galeri foto.",
+      techs: ["Bootstrap", "JavaScript", "CSS"],
+      demoLink: "https://undangan-pernikahan-chi-dusky.vercel.app/",
+    },
   ];
 
   return (
