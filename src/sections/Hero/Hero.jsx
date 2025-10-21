@@ -25,7 +25,12 @@ function Hero() {
                 <Button href="#portfolio" variant="primary">
                   Lihat Portfolio
                 </Button>
-                <Button href="#kontak" variant="secondary">
+                <Button
+                  href="https://wa.me/6285721122232?text=Halo%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website%20Anda!"
+                  variant="secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Hubungi Saya
                 </Button>
               </div>

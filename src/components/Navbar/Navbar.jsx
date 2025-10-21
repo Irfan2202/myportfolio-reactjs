@@ -37,11 +37,9 @@ function Navbar() {
             <a href="#skill">Keahlian</a>
           </li>
           <li>
-            <a href="#pengalaman">Pengalaman</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
-          <li>
-            <a href="#pendidikan">Pendidikan</a>
-          </li>
+
           <li>
             <a href="#contact">Kontak</a>
           </li>
